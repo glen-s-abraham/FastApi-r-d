@@ -5,4 +5,4 @@ pydantic
 SQLAlchemy
 psycopg2 #psycopg2 for linux
 python-dotenv
-
+alembic

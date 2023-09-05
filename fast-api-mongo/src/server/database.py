@@ -9,6 +9,8 @@ database = client.students
 
 student_collection = database.get_collection("students_collection")
 
+user_collection = database.get_collection("user_collection")
+
 def student_helper(student) -> dict:
     return {
         "id": str(student["_id"]),

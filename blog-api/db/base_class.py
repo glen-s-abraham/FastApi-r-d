@@ -4,7 +4,7 @@ from sqlalchemy.orm import as_declarative
 
 
 @as_declarative()
-class BaseORM:
+class BaseClass:
     id: Any
     __name__: str
 

@@ -2,10 +2,10 @@ from datetime import datetime
 from sqlalchemy import Column, Integer, Text, String, Boolean, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 
-from db.base_orm import BaseORM
+from db.base_class import BaseClass
 
 
-class Blog(BaseORM):
+class Blog(BaseClass):
     id = Column(Integer, primary_key=True)
     title = Column(String, nullable=False)
     slug = Column(String, nullable=False)
